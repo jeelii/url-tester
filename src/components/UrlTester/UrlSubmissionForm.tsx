@@ -27,6 +27,7 @@ const UrlSubmissionForm: FunctionComponent<Props> = ({ addUrl }) => {
         <input
           type="text"
           name="urlInput"
+          placeholder="https://..."
           value={urlInput}
           onChange={onChange}
         />
